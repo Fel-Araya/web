@@ -1,0 +1,236 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Página</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<script>
+  document.addEventListener("click", function (event) {
+      const menuToggle = document.getElementById("menu-toggle");
+      const navbar = document.querySelector(".navbar-custom");
+      
+      if (!navbar.contains(event.target) && menuToggle.checked) {
+          menuToggle.checked = false;
+      }
+  });
+  </script>
+
+<body>
+  <nav class="navbar-custom">
+    <a href="#"><img class="navbar-brand" src="imagenes/logo.png" alt=""></a>
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="navbar-toggler">
+      <i class="fas fa-bars menu-icon"></i>
+      <i class="fas fa-times close-icon"></i>
+    </label>
+    <div class="navbar-collapse">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about-us">Quiénes somos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+      </ul>
+      <div class="social-icons-wrapper">
+        <a href="https://web.facebook.com/yevenesconsultores.cl" target="_blank" class="social-icons"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.linkedin.com/in/tanya-yevenes-gonzalez-82984462/?originalSubdomain=cl" target="_blank" class="social-icons"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <img src="imagenes/abcd.jpg" alt="Outsourcing">
+    <div class="hero-text">
+      <p>
+        <span class="contact">¡Contáctenos!</span><br>
+        <span class="text-1">Somos su mejor alternativa dentro del mercado</span><br>
+        <span class="text-2">Con precios convenientes y a su medida.</span>
+      </p>
+    </div>
+  </div>
+
+  <div class="header">
+    <div class="container">
+      <section class="about-us" id="about-us">
+      <div class="about-section">
+          <div class="about-text">
+              <h1>¿Quiénes Somos?</h1>
+              <p>Yévenes Consultores & Auditores es una empresa de servicios de outsourcing orientada a brindar apoyo en la gestión empresarial y recursos humanos. Contamos con un equipo de profesionales de alto nivel con más de 25 años de experiencia en auditoría, administración, contabilidad, impuestos y recursos humanos.</p>
+              <p>Nuestra experiencia garantiza un servicio de excelencia y calidad, cumpliendo con las normas y proporcionando el apoyo necesario para potenciar su negocio. Nos enfocamos no solo en el registro contable, sino en la entrega oportuna y precisa de información para una toma de decisiones eficiente.</p>
+              <p>Contamos con un amplio portafolio de clientes nacionales e internacionales en sectores como minería, capacitación, OSFL, construcción e inversiones, lo que nos permite ofrecer un servicio personalizado a cada cliente.</p>
+          </div>
+          <div class="about-img">
+              <img src="imagenes/abdcde.jpg" alt="Sobre nosotros">
+          </div>
+      </div>
+
+      <section class="why choose us" id="why choose us">
+      <div class="section">
+          <h2>¿Por qué elegirnos?</h2>
+          <p>Contamos con un equipo de expertos con altos estándares de calidad en la información, en constante capacitación para brindar el mejor servicio de apoyo a la gestión empresarial. Somos proactivos, entregamos información oportuna y resultados positivos que brindan tranquilidad, permitiendo que nuestros clientes se enfoquen en el crecimiento de su negocio.</p>
+          <p>Ofrecemos comunicación directa con nuestros profesionales en todo momento.</p>
+      </div>
+
+
+      <div class="section">
+          <h2>Objetivo Principal</h2>
+          <p>Brindar apoyo profesional y técnico permanente con servicios de soluciones integrales y altos estándares de calidad.</p>
+
+          <h2>Objetivos Secundarios</h2>
+          <p>Con nuestro servicio de outsourcing, su empresa contará con confianza y eficiencia en cada uno de los procesos, permitiendo concentrarse en su actividad principal.</p>
+      </div>
+    </section>
+  </div>
+    </section>
+  
+    
+    <section class="services" id="services">
+  <section class="services-section container">
+    <h1>Servicios</h1>
+    <div class="services-container">
+
+      <div class="service-block">
+        <h2>Asesorías Contables Mensuales</h2>
+        <p>Ofrecemos apoyo y asesoramiento contable de alta calidad para la toma de decisiones económicas.</p>
+        <ul>
+          <li>Contabilidad completa</li>
+          <li>Revisión de libros de compra y venta</li>
+          <li>Confección de impuestos mensuales</li>
+          <li>Conciliaciones bancarias</li>
+          <li>Asesoría en facturación electrónica</li>
+        </ul>
+      </div>
+      <div class="service-block">
+        <h2>Asesorías en Recursos Humanos</h2>
+        <p>Brindamos asesoría y apoyo en la gestión de recursos humanos, garantizando la seguridad y bienestar de los trabajadores.</p>
+        <ul>
+          <li>Contratos y finiquitos</li>
+          <li>Cálculo y emisión de liquidaciones de sueldo</li>
+          <li>Presentación de licencias médicas</li>
+          <li>Trámites en inspección del trabajo</li>
+        </ul>
+      </div>
+      <div class="service-block">
+        <h2>Servicios Tributarios</h2>
+        <p>Nos mantenemos actualizados en normativas tributarias para ofrecer el mejor servicio en materia fiscal.</p>
+        <ul>
+          <li>Declaraciones de impuestos mensuales</li>
+          <li>Renta anual</li>
+          <li>Declaraciones juradas</li>
+          <li>Asesoría tributaria</li>
+        </ul>
+      </div>
+      <div class="service-block">
+        <h2>Servicios de Auditoría</h2>
+        <p>Contamos con más de 20 años de experiencia en auditorías internas y externas.</p>
+        <ul>
+          <li>Auditoría de estados financieros</li>
+          <li>Arqueo de documentos y efectivo</li>
+          <li>Toma de inventario</li>
+          <li>Implementación de IFRS y control interno</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</section>  
+  <section class="contact" id="contact">
+  <div class="contact-container">
+    <div class="contact-form">
+        <h2>Contacto</h2>
+        <p>Somos su mejor alternativa dentro del mercado con precios convenientes y a su medida.</p>
+        <p>Email: contacto@yevenesconsultores.cl</p>
+        <form action="form.php" method="POST">
+            <input type="text" name="name" placeholder="Nombre" required>
+            <input type="email"  name="email"  placeholder="Correo electrónico" required>
+            <textarea name="message" placeholder="Mensaje" rows="5" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+
+
+    <div class="map-container">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.9074180589664!2d-70.6166181235563!3d-33.425657996244276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf644301632b%3A0x41a3fd625867026e!2sAv.%20Nueva%20Providencia%201881%2C%20OF%20201%20DPTO.%20%23201%2C%207500520%20Providencia%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1738638568166!5m2!1ses!2scl"
+            width="100%" 
+            height="100%" 
+            style="border:0;"   
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
+
+      
+
+
+
+
+
+
+    
+    
+
+    <footer class="footer">
+
+      <div class="containers">
+
+          <div class="footer-content">
+
+          <div class="footer-links">
+              <h4>Sobre Nosotros</h4>
+              <ul>
+                <li><a href="#about-us">Quienes somos</a></li>
+                <li><a href="#why choose us">Por que elegirnos</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links">
+            <h4>Servicios</h4>
+            <ul>
+              <li><a href="#services">Asesorías Contables Mensuales</a></li>
+              <li><a href="#services">Asesorías en el área de Recursos Humanos</a></li>
+              <li><a href="#services">Servicios Tributarios</a></li>
+              <li><a href="#services">Servicios de Auditorias y complementarios</a></li>
+            </ul>
+          </div>
+
+
+          <div class="footer-links-contact">
+            <h4>Contacto</h4>
+            <ul>
+              <li>Telefono: 222667818</li>
+              <li>Email: contacto@yevenesconsultores.cl</a></li>
+              <li>Whatsapp: (+56 9) 9430 5904</li>
+            </ul>
+            <div class="social-link">
+              <a href="https://web.facebook.com/yevenesconsultores.cl" target="_blank" ><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.linkedin.com/in/tanya-yevenes-gonzalez-82984462/?originalSubdomain=cl" target="_blank" ><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>  
+
+        
+      
+
+    </footer>
+
+
+
+
+
+    </main>
+    
+</body>
+</html>
