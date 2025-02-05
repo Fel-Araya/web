@@ -386,6 +386,10 @@ input[type="checkbox"] {
 	#menu-toggle:checked ~ .navbar-toggler .close-icon {
 		display: inline;
 	}
+
+	.html {
+	scroll-behavior: smooth;	
+}
 	
 
 }
